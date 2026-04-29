@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "swipe-reminder",
+    "slug": "swipe-reminder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#007aff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.swipereminder.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#007aff"
+      },
+      "package": "com.swipereminder.app"
+    },
+    "plugins": ["expo-build-properties"]
+  }
+}
